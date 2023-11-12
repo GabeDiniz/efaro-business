@@ -1,17 +1,15 @@
 import React from "react";
-import Img from "../assets/temp.png";
+import Img from "../assets/check.png";
 
 const Analytics = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-        <img className="w-[500px] mx-auto my-4 p-4" src={Img} alt="/" />
+        <img className="w-[400px] mx-auto my-4 p-4" src={Img} alt="/" />
         <div className="flex flex-col justify-center">
-          <p className="text-[#00df9a] uppercase font-bold">
-            Data Analytics Dashboard
-          </p>
+          <p className="text-[#00df9a] uppercase font-bold">Our promise</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Manage Data Analytics
+            Satisfaction Guaranteed
           </h1>
           <p className="">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit rem

@@ -14,12 +14,12 @@ const Cards = () => {
             src={Single}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Single</h2>
-          <p className="text-center text-4xl font-bold">Blah blah</p>
+          <h2 className="text-2xl font-bold text-center py-8">Service</h2>
+          <p className="text-center text-4xl font-bold">Gutter</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">550 number</p>
-            <p className="py-2 border-b mx-8">550 number</p>
-            <p className="py-2 border-b mx-8">550 number</p>
+            <p className="py-2 border-b mx-8 mt-8">Small: $300</p>
+            <p className="py-2 border-b mx-8">Avg: $1000</p>
+            <p className="py-2 border-b mx-8">Large: $3000</p>
           </div>
           <button className="bg-[#00df9a] w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-black">
             Get Quote
@@ -32,12 +32,12 @@ const Cards = () => {
             src={Double}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Single</h2>
-          <p className="text-center text-4xl font-bold">Blah blah</p>
+          <h2 className="text-2xl font-bold text-center py-8">Service</h2>
+          <p className="text-center text-4xl font-bold">Window</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">550 number</p>
-            <p className="py-2 border-b mx-8">550 number</p>
-            <p className="py-2 border-b mx-8">550 number</p>
+            <p className="py-2 border-b mx-8 mt-8">Small: $300</p>
+            <p className="py-2 border-b mx-8">Avg: $1000</p>
+            <p className="py-2 border-b mx-8">Large: $3000</p>
           </div>
           <button className="bg-black w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-[#00df9a]">
             Get Quote
@@ -50,12 +50,12 @@ const Cards = () => {
             src={Triple}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Single</h2>
-          <p className="text-center text-4xl font-bold">Blah blah</p>
+          <h2 className="text-2xl font-bold text-center py-8">Service</h2>
+          <p className="text-center text-4xl font-bold">Eavestrough</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">550 number</p>
-            <p className="py-2 border-b mx-8">550 number</p>
-            <p className="py-2 border-b mx-8">550 number</p>
+            <p className="py-2 border-b mx-8 mt-8">Small: $300</p>
+            <p className="py-2 border-b mx-8">Avg: $1000</p>
+            <p className="py-2 border-b mx-8">Large: $3000</p>
           </div>
           <button className="bg-[#00df9a] w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-black">
             Get Quote
