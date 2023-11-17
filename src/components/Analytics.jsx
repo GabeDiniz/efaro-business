@@ -12,10 +12,13 @@ const Analytics = () => {
             Satisfaction Guaranteed
           </h1>
           <p className="">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit rem
-            inventore, dicta ex voluptate omnis temporibus expedita facere
-            dolore similique nam, consequatur impedit veniam dolorum et aliquid
-            quo perspiciatis maiores?
+            At Student Works, customer satisfaction is at the heart of our
+            mission. We are dedicated to ensuring that every interaction with
+            our products or services exceeds your expectations. Our commitment
+            to quality, personalized attention, and continuous improvement is
+            the foundation of our guarantee to provide you with an exceptional
+            experience. Your satisfaction is not just a goal; it's our promise,
+            and we stand firmly behind it.
           </p>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 px-6 py-3 mx-auto md:mx-0">
             Get Started
