@@ -24,11 +24,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      {/* <div className="lg:cols-span-3 flex justify-between">
-        <ul>
-          <li></li>
-        </ul>
-      </div> */}
     </div>
   );
 };
