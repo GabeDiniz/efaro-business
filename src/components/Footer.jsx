@@ -9,8 +9,8 @@ const Footer = () => {
           EFaro Business.
         </h1>
         <p className="py-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
-          temporibus?
+          Contact me on any of these platforms and I will get back to you as
+          soon as possible!
         </p>
         <div className="flex gap-6 md:w-[75%] mt-6">
           <a href="https://www.linkedin.com/in/ericfariasdefaro/">
