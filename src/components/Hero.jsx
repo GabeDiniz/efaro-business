@@ -2,6 +2,17 @@ import React from "react";
 import Typed from "react-typed";
 
 const Hero = () => {
+  const handleEstimateButton = () => {
+    const email = "efaro@hotmail.com";
+    const subject = "EFBusiness Estimate Booking";
+    const body = "Hi, I would like to book an estimate for...";
+
+    const mailTo = `mailto:${email}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailTo;
+  };
+
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
@@ -26,7 +37,10 @@ const Hero = () => {
         <p className="md:text-2xl text-xl font-bold text-gray-400">
           Let us clean your home for you this summer.
         </p>
-        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black">
+        <button
+          className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black"
+          onClick={handleEstimateButton}
+        >
           FREE ESTIMATE
         </button>
       </div>
