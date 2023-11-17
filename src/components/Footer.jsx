@@ -13,9 +13,15 @@ const Footer = () => {
           temporibus?
         </p>
         <div className="flex gap-6 md:w-[75%] mt-6">
-          <FaLinkedin size={35} />
-          <FaInstagram size={35} />
-          <FaFacebookSquare size={35} />
+          <a href="https://www.linkedin.com/in/ericfariasdefaro/">
+            <FaLinkedin size={35} />
+          </a>
+          <a href="https://www.instagram.com/ericfaro/">
+            <FaInstagram size={35} />
+          </a>
+          <a href="https://www.google.ca/">
+            <FaFacebookSquare size={35} />
+          </a>
         </div>
       </div>
       {/* <div className="lg:cols-span-3 flex justify-between">
