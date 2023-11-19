@@ -6,6 +6,7 @@ import Info from "./components/Info";
 import Newsletter from "./components/Newsletter";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
+import OurTeam from "./components/OurTeam";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Info />
       <Newsletter />
       <Cards />
+      <OurTeam />
       <Footer />
     </div>
   );
