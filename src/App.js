@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import "./index.css";
 import Hero from "./components/Hero";
-import Analytics from "./components/Analytics";
+import Info from "./components/Info";
 import Newsletter from "./components/Newsletter";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Analytics />
+      <Info />
       <Newsletter />
       <Cards />
       <Footer />
