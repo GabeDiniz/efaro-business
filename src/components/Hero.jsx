@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="text-white">
+    <section className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[#00df9a] text-lg md:text-xl font-bold p-2">
           Student Works Management Program
@@ -44,7 +44,7 @@ const Hero = () => {
           FREE ESTIMATE
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

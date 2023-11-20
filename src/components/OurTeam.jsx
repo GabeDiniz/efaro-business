@@ -1,7 +1,7 @@
 import React from "react";
 
 const OurTeam = () => {
-  return <div>OurTeam</div>;
+  return <section>OurTeam</section>;
 };
 
 export default OurTeam;
