@@ -2,6 +2,8 @@ import React from "react";
 
 const OurTeam = () => {
   const teamName = ["Eric", "John", "Gabe"];
+  const images = ["img-Eric", "img-John", "img-Gabe"];
+  console.log(images);
 
   return (
     <section className="w-full max-w-[1240px] mx-auto">
@@ -15,7 +17,6 @@ const OurTeam = () => {
           </div>
         ))}
       </div>
-      <div className=""></div>
     </section>
   );
 };
