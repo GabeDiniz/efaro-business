@@ -3,8 +3,8 @@ import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="w-full max-w-[1240px] mx-auto py-8 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
-      <div>
+    <footer className="w-full text-gray-300 bg-white">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-1 py-8 px-4 ">
         <h1 className="w-full text-3xl font-bold text-[#00df9a]">
           EFaro Business.
         </h1>
@@ -24,7 +24,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 
