@@ -8,22 +8,24 @@ const OurTeam = () => {
   console.log(images);
 
   return (
-    <section className="w-full max-w-[1240px] mx-auto">
-      <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-[#00df9a]">
+    <section className="w-full max-w-[1240px] mx-auto py-8 px-4">
+      <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold text-[#00df9a]">
         Our Team
       </h1>
-      <div className="grid sm:grid-cols-3">
+      <div className="grid md:grid-cols-3">
         {/* Map each Member */}
         {teamName.map((name, index) => (
-          <div className="flex items-center">
+          <div className="flex items-center my-6">
             <img
               className="w-[100px] h-[100px] object-cover rounded-full"
               src={teamMember1}
               alt="teamMember"
             />
-            <div className="flex flex-col">
-              <h1>{name}</h1>
-              <h1>{position[index]}</h1>
+            <div className="flex flex-col ml-4 text-white">
+              <h1 className="md:text-2xl sm:text-lg text-xl font-bold">
+                {name}
+              </h1>
+              <h2 className="">{position[index]}</h2>
             </div>
           </div>
         ))}
