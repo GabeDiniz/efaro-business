@@ -1,4 +1,5 @@
 import React from "react";
+import teamMember1 from "../assets/temp.JPG";
 
 const OurTeam = () => {
   const teamName = ["Eric", "John", "Gabe"];
@@ -13,6 +14,11 @@ const OurTeam = () => {
       <div className="grid lg:grid-cols-3">
         {teamName.map((name) => (
           <div>
+            <img
+              className="w-[100px] h-[100px] object-cover rounded-full"
+              src={teamMember1}
+              alt="/"
+            />
             <h1>{name}</h1>
           </div>
         ))}
