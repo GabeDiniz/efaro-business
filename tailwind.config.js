@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blk: "#303030",
+        blackLight: "#303030",
+        blackDark: "#1b1c1e",
         base: "#69b4ff",
         accentLight: "#0085ff",
-        accent: "#CEDFFF",
+        accent: "#69b4ff",
         darkCard: "#454545",
       },
     },
