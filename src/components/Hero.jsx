@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <section className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <p className="text-[#00df9a] text-lg md:text-xl font-bold p-2">
+        <p className="text-accentLight text-lg md:text-xl font-bold p-2">
           Student Works Management Program
         </p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold">
@@ -38,7 +38,7 @@ const Hero = () => {
           Let us clean your home for you this summer.
         </p>
         <button
-          className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black"
+          className="bg-accent w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black"
           onClick={handleEstimateButton}
         >
           FREE ESTIMATE
