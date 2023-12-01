@@ -7,8 +7,8 @@ const Info = () => {
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img className="w-[400px] mx-auto my-4 p-4" src={Img} alt="/" />
         <div className="flex flex-col justify-center">
-          <p className="text-[#00df9a] uppercase font-bold">Our promise</p>
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+          <p className="text-accentLight uppercase font-bold">Our promise</p>
+          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-blackDark">
             Satisfaction Guaranteed
           </h1>
           <p className="">
@@ -20,7 +20,7 @@ const Info = () => {
             experience. Your satisfaction is not just a goal; it's our promise,
             and we stand firmly behind it.
           </p>
-          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 px-6 py-3 mx-auto md:mx-0">
+          <button className="bg-blackDark text-accent w-[200px] rounded-md font-medium my-6 px-6 py-3 mx-auto md:mx-0">
             Get Started
           </button>
         </div>
