@@ -4,8 +4,7 @@ import teamMember1 from "../assets/temp.JPG";
 const OurTeam = () => {
   const teamName = ["Eric Faro", "John Doe", "Gabe Diniz"];
   const position = ["President", "Vice President", "Event Coordinator"];
-  const images = ["img-Eric", "img-John", "img-Gabe"];
-  console.log(images);
+  // const images = ["img-Eric", "img-John", "img-Gabe"];
 
   return (
     <section className="w-full max-w-[1240px] mx-auto py-8 px-4">
