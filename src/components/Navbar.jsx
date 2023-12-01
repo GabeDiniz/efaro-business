@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import Logo from "../assets/LogoEF.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -9,6 +10,7 @@ const Navbar = () => {
   };
   return (
     <nav className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+      <img className="w-[100px] mx-auto my-4 p-4" src={Logo} alt="/" />
       <h1 className="w-full text-3xl font-bold text-accentLight">
         EFaro Business.
       </h1>
