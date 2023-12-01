@@ -15,7 +15,7 @@ const OurTeam = () => {
       <div className="grid md:grid-cols-3">
         {/* Map each Member */}
         {teamName.map((name, index) => (
-          <div className="flex items-center my-6">
+          <div key={index} className="flex items-center my-6">
             <img
               className="w-[100px] h-[100px] object-cover rounded-full"
               src={teamMember1}
