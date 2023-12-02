@@ -21,7 +21,7 @@ const Cards = () => {
             <p className="py-2 border-b mx-8">Avg: $1000</p>
             <p className="py-2 border-b mx-8">Large: $3000</p>
           </div>
-          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-black">
+          <button className="bg-accentLight w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-black">
             Get Quote
           </button>
         </div>
@@ -39,7 +39,7 @@ const Cards = () => {
             <p className="py-2 border-b mx-8">Avg: $1000</p>
             <p className="py-2 border-b mx-8">Large: $3000</p>
           </div>
-          <button className="bg-black w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-[#00df9a]">
+          <button className="bg-black w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-accent">
             Get Quote
           </button>
         </div>
@@ -57,7 +57,7 @@ const Cards = () => {
             <p className="py-2 border-b mx-8">Avg: $1000</p>
             <p className="py-2 border-b mx-8">Large: $3000</p>
           </div>
-          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-black">
+          <button className="bg-accentLight w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-black">
             Get Quote
           </button>
         </div>
