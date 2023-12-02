@@ -4,6 +4,11 @@ import Double from "../assets/user_icon.png";
 import Triple from "../assets/user_icon.png";
 
 const Cards = () => {
+  // Repeating Elements
+  const Service = (
+    <h2 className="text-2xl font-bold text-center py-8">Service</h2>
+  );
+
   return (
     <section className="w-full py-[10rem] px-4 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
@@ -14,7 +19,7 @@ const Cards = () => {
             src={Single}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Service</h2>
+          {Service}
           <p className="text-center text-4xl font-bold">Gutter</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">Small: $300</p>
@@ -32,7 +37,7 @@ const Cards = () => {
             src={Double}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Service</h2>
+          {Service}
           <p className="text-center text-4xl font-bold">Window</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">Small: $300</p>
@@ -50,7 +55,7 @@ const Cards = () => {
             src={Triple}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Service</h2>
+          {Service}
           <p className="text-center text-4xl font-bold">Eavestrough</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">Small: $300</p>
