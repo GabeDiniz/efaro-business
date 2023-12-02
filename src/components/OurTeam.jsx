@@ -8,7 +8,7 @@ const OurTeam = () => {
 
   return (
     <section className="w-full max-w-[1240px] mx-auto py-8 px-4">
-      <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold text-[#00df9a]">
+      <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold text-accentLight">
         Our Team
       </h1>
       <div className="grid md:grid-cols-3">
