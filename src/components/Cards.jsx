@@ -13,7 +13,7 @@ const Cards = () => {
     <section className="w-full py-[10rem] px-4 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         {/* CARD 1 */}
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-xl hover:scale-105 duration-300">
+        <div className="w-full shadow-xl flex flex-col p-4 pb-6 my-4 rounded-xl hover:scale-105 duration-300">
           <img
             className="w-16 mx-auto mt-[-3rem] bg-white"
             src={Single}
@@ -24,11 +24,11 @@ const Cards = () => {
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">Small: $300</p>
             <p className="py-2 border-b mx-8">Avg: $1000</p>
-            <p className="py-2 border-b mx-8">Large: $3000</p>
+            <p className="py-2 mx-8">Large: $3000</p>
           </div>
-          <button className="bg-accentLight w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-black">
+          {/* <button className="bg-accentLight w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-black">
             Get Quote
-          </button>
+          </button> */}
         </div>
         {/* CARD 2 */}
         <div className="w-full shadow-xl flex flex-col p-4 my-8 md:my-0 rounded-xl hover:scale-105 duration-300">
@@ -42,14 +42,14 @@ const Cards = () => {
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">Small: $300</p>
             <p className="py-2 border-b mx-8">Avg: $1000</p>
-            <p className="py-2 border-b mx-8">Large: $3000</p>
+            <p className="py-2 mx-8">Large: $3000</p>
           </div>
-          <button className="bg-black w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-accent">
+          {/* <button className="bg-black w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-accent">
             Get Quote
-          </button>
+          </button> */}
         </div>
         {/* CARD 3 */}
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-xl hover:scale-105 duration-300">
+        <div className="w-full shadow-xl flex flex-col p-4 pb-6 my-4 rounded-xl hover:scale-105 duration-300">
           <img
             className="w-16 mx-auto mt-[-3rem] bg-white"
             src={Triple}
@@ -60,11 +60,11 @@ const Cards = () => {
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-8">Small: $300</p>
             <p className="py-2 border-b mx-8">Avg: $1000</p>
-            <p className="py-2 border-b mx-8">Large: $3000</p>
+            <p className="py-2 mx-8">Large: $3000</p>
           </div>
-          <button className="bg-accentLight w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-black">
+          {/* <button className="bg-accentLight w-[200px] rounded-md font-medium mx-auto my-6 px-6 py-3 text-black">
             Get Quote
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
