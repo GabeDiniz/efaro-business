@@ -7,7 +7,7 @@ const OurTeam = () => {
   // const images = ["img-Eric", "img-John", "img-Gabe"];
 
   return (
-    <section className="w-full max-w-[1240px] mx-auto py-8 px-4">
+    <section className="w-full max-w-[1240px] mx-auto py-8 px-4 md:px-10">
       <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold text-accentLight">
         Our Team
       </h1>
