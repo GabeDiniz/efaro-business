@@ -10,7 +10,7 @@ const Cards = () => {
   );
 
   return (
-    <section className="w-full py-[10rem] px-4">
+    <section className="w-full py-[10rem] px-4 text-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         {/* CARD 1 */}
         <div className="w-full shadow-xl flex flex-col p-4 pb-6 my-4 rounded-xl hover:scale-105 duration-300">
