@@ -10,15 +10,11 @@ const Cards = () => {
   );
 
   return (
-    <section className="w-full py-[10rem] px-4 bg-white">
+    <section className="w-full py-[10rem] px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         {/* CARD 1 */}
         <div className="w-full shadow-xl flex flex-col p-4 pb-6 my-4 rounded-xl hover:scale-105 duration-300">
-          <img
-            className="w-16 mx-auto mt-[-3rem] bg-white"
-            src={Single}
-            alt="/"
-          />
+          <img className="w-16 mx-auto mt-[-3rem] " src={Single} alt="/" />
           {Service}
           <p className="text-center text-4xl font-bold">Gutter</p>
           <div className="text-center font-medium">
@@ -32,11 +28,7 @@ const Cards = () => {
         </div>
         {/* CARD 2 */}
         <div className="w-full shadow-xl flex flex-col p-4 my-8 md:my-0 rounded-xl hover:scale-105 duration-300">
-          <img
-            className="w-16 mx-auto mt-[-3rem] bg-white"
-            src={Double}
-            alt="/"
-          />
+          <img className="w-16 mx-auto mt-[-3rem] " src={Double} alt="/" />
           {Service}
           <p className="text-center text-4xl font-bold">Window</p>
           <div className="text-center font-medium">
@@ -50,11 +42,7 @@ const Cards = () => {
         </div>
         {/* CARD 3 */}
         <div className="w-full shadow-xl flex flex-col p-4 pb-6 my-4 rounded-xl hover:scale-105 duration-300">
-          <img
-            className="w-16 mx-auto mt-[-3rem] bg-white"
-            src={Triple}
-            alt="/"
-          />
+          <img className="w-16 mx-auto mt-[-3rem] " src={Triple} alt="/" />
           {Service}
           <p className="text-center text-4xl font-bold">Eavestrough</p>
           <div className="text-center font-medium">
