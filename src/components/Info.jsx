@@ -3,7 +3,7 @@ import Img from "../assets/check.png";
 
 const Info = () => {
   return (
-    <section className="w-full py-16 px-4 text-white">
+    <section className="w-full py-16 px-4 text-white bg-back">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img className="w-[400px] mx-auto my-4 p-4" src={Img} alt="/" />
         <div className="flex flex-col justify-center">

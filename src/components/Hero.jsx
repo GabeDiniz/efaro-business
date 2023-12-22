@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="text-white">
+    <section className="text-white bg-gradient-to-t from-back to-blue-950">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-accentLight text-lg md:text-xl font-bold p-2">
           Student Works Management Program
