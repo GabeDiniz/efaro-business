@@ -4,11 +4,11 @@ import Img from "../assets/check.png";
 const Info = () => {
   return (
     <section className="w-full py-16 px-4 text-white bg-back">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-        <img className="w-[400px] mx-auto my-4 p-4" src={Img} alt="/" />
+      <div className="max-w-[1000px] mx-auto flex">
+        <img className="w-[300px] my-4 mx-10 p-4" src={Img} alt="/" />
         <div className="flex flex-col justify-center">
           <p className="text-accentLight uppercase font-bold">Our promise</p>
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-blackDark">
+          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Satisfaction Guaranteed
           </h1>
           <p className="">
@@ -20,9 +20,9 @@ const Info = () => {
             experience. Your satisfaction is not just a goal; it's our promise,
             and we stand firmly behind it.
           </p>
-          <button className="bg-accent text-blackDark w-[200px] rounded-md font-medium my-6 px-6 py-3 mx-auto md:mx-0">
+          {/* <button className="bg-accent text-blackDark w-[200px] rounded-md font-medium my-6 px-6 py-3 mx-auto md:mx-0">
             Get Started
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
