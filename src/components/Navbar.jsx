@@ -11,9 +11,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
       <img className="w-[100px] mx-auto my-4 p-4" src={Logo} alt="/" />
-      <h1 className="w-full text-3xl font-bold text-accentLight">
-        EFaro Business.
-      </h1>
+      <h1 className="w-full text-3xl font-bold text-white">EFaro Business.</h1>
       <ul className="hidden md:flex">
         <li className="p-4">Company</li>
         <li className="p-4">Resources</li>
