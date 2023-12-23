@@ -38,7 +38,7 @@ const Hero = () => {
           Let us brighten your home this summer.
         </p>
         <button
-          className="bg-accent w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black"
+          className="bg-accent hover:bg-accentLight duration-300 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black"
           onClick={handleEstimateButton}
         >
           FREE ESTIMATE

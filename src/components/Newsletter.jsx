@@ -19,7 +19,7 @@ const Newsletter = () => {
               type="email"
               placeholder="Enter Email"
             />
-            <button className="bg-accent w-[200px] rounded-md font-medium ml-4 my-6 px-6 py-3 text-black">
+            <button className="bg-accent hover:bg-accentLight duration-300 w-[200px] rounded-md font-medium ml-4 my-6 px-6 py-3 text-black">
               Contact me
             </button>
           </div>
