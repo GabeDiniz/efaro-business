@@ -3,10 +3,10 @@ import Img from "../assets/check.png";
 
 const Info = () => {
   return (
-    <section className="w-full py-16 px-4 text-white bg-back">
-      <div className="max-w-[1000px] mx-auto flex">
-        <img className="w-[300px] my-4 mx-10 p-4" src={Img} alt="/" />
-        <div className="flex flex-col justify-center">
+    <section className="w-full py-16  text-white bg-back">
+      <div className="max-w-[1000px] mx-auto flex flex-wrap justify-center md:flex-nowrap">
+        <img className="w-[300px] h-[300px] my-4 mx-10 p-4" src={Img} alt="/" />
+        <div className="flex flex-col justify-center px-10">
           <p className="text-accentLight uppercase font-bold">Our promise</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Satisfaction Guaranteed
