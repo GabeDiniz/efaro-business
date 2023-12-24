@@ -2,9 +2,22 @@ import React from "react";
 import teamMember1 from "../assets/temp.JPG";
 
 const OurTeam = () => {
-  const teamName = ["Eric Faro", "John Doe", "Gabe Diniz"];
-  const position = ["President", "Vice President", "Event Coordinator"];
-  // const images = ["img-Eric", "img-John", "img-Gabe"];
+  const teamName = [
+    "Eric Faro",
+    "John Doe",
+    "Gabe Diniz",
+    "Robert Downey",
+    "Jonny Fisher",
+    "Chris Touble",
+  ];
+  const position = [
+    "President",
+    "Vice President",
+    "Event Coordinator",
+    "Onsite Operator",
+    "Onsite Operator",
+    "Onsite Operator",
+  ];
 
   return (
     <section className="w-full bg-gradient-to-t from-blue-950 to-back">
