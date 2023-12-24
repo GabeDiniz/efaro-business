@@ -14,7 +14,9 @@ function App() {
       <Navbar />
       <Hero />
       <Info />
-      <Newsletter />
+      <section id="contactMe">
+        <Newsletter />
+      </section>
       <Cards />
       <OurTeam />
       <Footer />
