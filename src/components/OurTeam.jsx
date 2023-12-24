@@ -35,7 +35,7 @@ const OurTeam = () => {
                 alt="teamMember"
               />
               <div className="flex flex-col ml-4 text-white">
-                <h1 className="md:text-2xl sm:text-lg text-xl font-bold">
+                <h1 className="md:text-2xl sm:text-xl text-lg font-bold">
                   {name}
                 </h1>
                 <h2 className="">{position[index]}</h2>

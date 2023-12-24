@@ -4,6 +4,7 @@ import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="w-full text-white bg-blue-950">
+      <div className="w-[97%] border-b-2 border-white mx-auto" />
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-1 py-8 px-4 md:px-10">
         <h1 className="w-full text-3xl font-bold text-white">
           EFaro Business.
