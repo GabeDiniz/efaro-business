@@ -30,7 +30,7 @@ const OurTeam = () => {
           {teamName.map((name, index) => (
             <div key={index} className="flex items-center my-6">
               <img
-                className="w-[100px] h-[100px] object-cover rounded-full"
+                className="w-[100px] h-[100px] object-cover rounded-full hover:scale-110 duration-300"
                 src={teamMember1}
                 alt="teamMember"
               />
